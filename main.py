@@ -12,7 +12,7 @@ import sklearn.metrics as metrics
 import matplotlib.pyplot as plt
 plt.style.use("ggplot")
 import tensorflow as tf
-from DNN_Regressor import DNN3_Regressor
+from rdnn import DNN3_Regressor
 import numpy as np
 
 data=ds.load_boston()

@@ -41,11 +41,4 @@ class DNN3_Regressor(object):
             X=data[:,:-1]
             y=data[:,-1]
         for i in range(0,X_train.shape[0],size_batch):
-            yield(X[i:i+size_batch,:],y[i:i+size_batch])
-
-
-
-
-    
-    
-        
+            yield(X[i:i+size_batch,:],y[i:i+size_batch])        
